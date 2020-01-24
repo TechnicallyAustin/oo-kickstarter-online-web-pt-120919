@@ -17,7 +17,8 @@ def backed_projects
 end
 
 def back_projects(project)
-  
+  Project.backers << Project
+end
 
   
 
