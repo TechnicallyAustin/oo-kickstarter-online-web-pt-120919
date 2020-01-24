@@ -10,7 +10,7 @@ def initialize(title)
 end
 
 def back_project(project)
-  @backed_projects << project 
+  @backer.acked_projects << project 
 end
 
 def add_backer(backer)
