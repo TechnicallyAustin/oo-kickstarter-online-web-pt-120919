@@ -11,6 +11,7 @@ end
 
 def back_project(project)
   @back_projects << project 
+end
 
 def add_backer(backer)
   @backers << backer
