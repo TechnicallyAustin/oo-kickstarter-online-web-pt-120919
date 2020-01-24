@@ -9,6 +9,9 @@ def initialize(title)
   @@all << self 
 end
 
+def back_project(project)
+  @back_projects << project 
+
 def add_backer(backer)
   @backers << backer
   if backer.backed_projects.include?(self) == false 
