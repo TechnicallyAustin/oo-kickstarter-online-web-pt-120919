@@ -1,3 +1,4 @@
+require 'pry'
 class Project
   @@all = [] 
   attr_accessor :backer, :backers 
@@ -13,6 +14,7 @@ def add_backer(backer)
   unless backer.backed_projects.include?(self)
   backer.back_projects(self)
   @backed_projects
+  binding.pry
 end
 end
   
