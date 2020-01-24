@@ -12,7 +12,7 @@ end
 def add_backer(backer)
   @backers << backer
   unless backer.backed_projects.include?(self)
-  backer.back_projects(s
+  backer.back_project(self)
   @backed_projects
   binding.pry
 end
