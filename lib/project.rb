@@ -8,7 +8,7 @@ end
 
 def add_backer(backer)
   @backer = Backer.new(backer)
-  @backers << @backers 
+  @backers << @backer
 end
   
 end
