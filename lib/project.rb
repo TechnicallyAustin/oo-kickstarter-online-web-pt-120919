@@ -10,7 +10,6 @@ end
 
 def add_backer(backer)
   @backers << backer
-  add_backer(self) unless backer.include?(self)
 end
   
 end
